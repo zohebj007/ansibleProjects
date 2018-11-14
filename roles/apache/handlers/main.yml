@@ -1,0 +1,4 @@
+---
+# handlers file for /home/ubuntu/roles/apache
+- name: restart apache
+  service: name=httpd state=restarted
